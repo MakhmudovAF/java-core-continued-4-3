@@ -1,3 +1,5 @@
+package first;
+
 import java.util.TreeMap;
 import java.util.Map;
 
@@ -47,6 +49,6 @@ class Car implements Comparable<Car> {
     }
 
     public String toString() {
-        return "Car{model=" + model + ", priceInRubles=" + priceInRubles + "}";
+        return "first.Car{model=" + model + ", priceInRubles=" + priceInRubles + "}";
     }
 }
